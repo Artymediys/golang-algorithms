@@ -1,2 +1,7 @@
-# golang-algorithms
-Practice: algorithmic problem solving in Golang
+# Algorithmic problem-solving in Golang
+
+### Tasks (description of tasks in their directory):
+* `Andrew and acid`
+* `Boarding the plane`
+* `Distance`  
+* ...
