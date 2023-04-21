@@ -9,16 +9,15 @@ import (
 // Finding any pair
 func findPair(A []int32, k int32) []int {
 	// Map init
-	searchMap := make(map[int32]int, len(A))
-	for index, value := range A {
-		searchMap[value] = index
-	}
+	searchMap := make(map[int32]int)
 
 	// Searching
-	for key, value := range searchMap {
-		if element, ok := searchMap[k-key]; ok {
-			return []int{value, element}
+	for index, value := range A {
+		if element, ok := searchMap[k-value]; ok {
+			return []int{element, index}
 		}
+
+		searchMap[value] = index
 	}
 
 	return []int{}
