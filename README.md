@@ -7,6 +7,7 @@
 * `Add Two Numbers`
 * `Human queue`
 * `Code-review`
+* `Good substrings`
 * `Boarding the plane`
 * `Distance`
 * ...
