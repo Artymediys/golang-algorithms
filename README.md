@@ -5,6 +5,7 @@
 * `Sum of pair`
 * `Roman to Integer`
 * `Add Two Numbers`
+* `Human queue`
 * `Boarding the plane`
 * `Distance`
 * ...
